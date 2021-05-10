@@ -1,0 +1,17 @@
+.nav-menu{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top:2vh;
+    transition:850ms;
+    border-spacing: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 0px 30px 0px 0px;
+}
+
+.nav-menu.active{
+    width: 15%;
+    min-width: 150px;
+}
